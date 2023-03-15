@@ -2,7 +2,7 @@ import React from "react";
 
 const PortfolioItem = ({ title, imgUrl, stack, link }) => {
   return (
-    <div>
+    <div className="border-2 border-stone-900 rounded-md overflow-hidden">
       <img
         src={imgUrl}
         alt="portfolio"
@@ -14,7 +14,9 @@ const PortfolioItem = ({ title, imgUrl, stack, link }) => {
         </h3>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
           {stack.map((item) => (
-            <span>{item}</span>
+            <span className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 rounded-md">
+              {item}
+            </span>
           ))}{" "}
         </p>
       </div>
