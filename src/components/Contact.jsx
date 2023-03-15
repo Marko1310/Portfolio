@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="flex flex-col mb-10 mx-auto">
       <div className="flex justify-center items-center">
         <form
-          action="http://getform.io/f/https://getform.io/f/d619453c-da99-412d-a1b5-c797eed96bd9"
+          action="https://getform.io/f/d619453c-da99-412d-a1b5-c797eed96bd9"
           method="POST"
           className="flex flex-col w-full md:w-7/12"
         >
@@ -35,7 +35,7 @@ const Contact = () => {
                     focus:outline-none"
           />
           <button
-            type="button"
+            type="submit"
             className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-500 to-green-500 drop-shadow-md"
           >
             Work with me

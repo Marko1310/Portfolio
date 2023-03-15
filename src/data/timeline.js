@@ -1,37 +1,58 @@
 export default [
   {
     year: "Today",
-    title: "YouTube Content Creator",
-    duration: "6 years",
+    title: "React and NodeJS",
+    duration: "On going",
     details:
-      "My humble attempt at building my version of the digital world one step at a time by documenting my coding journey and creating software engineering and computer science content to help those coming behind me.",
+      "Learning React, backend technologies like NodeJS and databases, implementing all to create a full stack app.",
   },
   {
-    year: "Today",
-    title: "Solo Indie Developer",
+    year: "2022",
+    title: "Basics of web development",
+    duration: "1 year",
+    details:
+      "More in depth learning of web development technologies, JS, Css, html, React, building first projects, getting even more interested in that field, learning through Udemy and YouTube.",
+  },
+  {
+    year: "2021",
+    title: "First Line of Code",
+    duration: "6 months",
+    details:
+      "I began my journey as a software developer by writing my first line of code, completing Harvard CS50 program, and learning the fundamentals of computer science, C, Python, web development, and databases.",
+  },
+  {
+    year: "2022",
+    title: "Coming d.o.o.",
     duration: "4 years",
     details:
-      "I'm a solo indie developer building software for myself and clients to showcase on YouTube. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code.",
-  },
-  {
-    year: "2019",
-    title: "Software Engineer",
-    duration: "2 years",
-    details:
-      "I helped build an enterprise application for a Fortune 500 company in an Agile team setting. Our tech stack consisted of TypeSciprt, Angular, Java, Gradle, and a handful of other languages and tools.",
+      "Creation of project documentation for the construction, repair and reconstruction of infrastructure systems (road surfaces, AB plateaus, hydrant networks, drainage systems, working areas of port areas), Creation of detailed contractual cost estimates, Supervision of the execution of high-rise and civil engineering works Coordination of all construction participants, Preparation of a technical inspection and obtaining a use permit",
   },
   {
     year: "2018",
-    title: "Bachelor's Degree in Computer Science",
+    title: "Department of Construction and Physical planning",
     duration: "5 years",
     details:
-      "I pursued the knowledge that a computer science degree had to offer. I learned about computer architecture, computer science theory, an array of programming, and aspects of artificial intelligence.",
+      "Issuance of building permits, Issuance of use permits, Issuance of a decision on the derived state Determination of the building plot, Release of location information",
   },
   {
-    year: "2013",
-    title: "First Line of Code",
-    duration: "the beginning",
+    year: "2012",
+    title: "Master's degree, Civil Engineer",
+    duration: "2 years",
     details:
-      "I wrote my first line of real code that started this journey into digital craftsmanship that I never could've imagined, especially as someone who never saw themselves as anything other than a blue collar worker.",
+      "Universitiy of Split, Faculty of Civil Engineering, Architecture and Geodesy",
+  },
+
+  {
+    year: "2010",
+    title: "Bachelor's Degree in Computer Science",
+    duration: "3 years",
+    details:
+      "Universitiy of Split, Faculty of Civil Engineering, Architecture and Geodesy",
+  },
+  {
+    year: "2007",
+    title: "Geodetic Technician",
+    duration: "4 years",
+    details: "Civil Engineering - Geodesy High School",
   },
 ];
