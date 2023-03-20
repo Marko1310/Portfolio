@@ -1,17 +1,12 @@
 import React from "react";
 
-const PortfolioItem = ({ title, imgUrl, stack, link }) => {
+const PortfolioItem = ({ title, imgUrl, stack, link, github }) => {
   return (
-    <a
-      href={link}
-      target="_blank"
-      rel="nooopener"
-      className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
-    >
+    <div className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden">
       <img
         src={imgUrl}
         alt="portfolio"
-        className="w-full h-36 md:h-48 object-cover cursor-pointer"
+        className="w-full h-36 md:h-48 object-cover"
       />
       <div className="w-full p-4">
         <h3 className="text-lg md:text-xl mb-2 mb:mb-3 font-semibold dark:text-white">
@@ -24,8 +19,24 @@ const PortfolioItem = ({ title, imgUrl, stack, link }) => {
             </span>
           ))}{" "}
         </p>
+        <a
+          href={github}
+          target="_blank"
+          rel="nooopener"
+          className="inline-block px-2 py-1 font-semibold underline border-stone-900 dark:border-white mt-2"
+        >
+          Code
+        </a>
+        <a
+          href={link}
+          target="_blank"
+          rel="nooopener"
+          className="inline-block px-2 py-1 font-semibold underline border-stone-900 dark:border-white mt-2"
+        >
+          Live Demo
+        </a>
       </div>
-    </a>
+    </div>
   );
 };
 

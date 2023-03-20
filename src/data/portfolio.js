@@ -2,7 +2,7 @@ export default [
   {
     title: "Workout_Tracker",
     imgUrl: "/assets/Workout.png",
-    stack: ["React", "NodeJS", "SQL", "HTML", "CSS", "JavaScript"],
+    stack: ["React", "NodeJS", "SQL", "CSS", "JS"],
     link: "https://workouttracker-be21.onrender.com/",
     github: "https://github.com/Marko1310/workout_tracker",
   },
@@ -32,7 +32,7 @@ export default [
     imgUrl: "/assets/Mapty.png",
     stack: ["HTML", "CSS", "JavaScript"],
     link: "https://mapty-marko-v2.netlify.app/",
-    github: "",
+    github: "https://github.com/Marko1310/Mapty",
   },
   {
     title: "Word_Counter",
