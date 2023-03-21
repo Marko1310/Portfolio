@@ -28,7 +28,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <p className="text-2sm max-w-4xl mb-6 text-left">
+      <p className="text-s max-w-4xl mb-6 text-left">
         I am a software developer in the making and always eager to acquire new
         skills. I am self-taught and have a strong drive to succeed in this
         field. As a team player, I value collaboration and constructive

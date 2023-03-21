@@ -9,7 +9,7 @@ export default [
   {
     title: "Portfolio_page",
     imgUrl: "/assets/Portfolio.png",
-    stack: ["React", "HTML", "CSS", "JavaScript"],
+    stack: ["React", "HTML", "Tailwind", "JS"],
     link: "https://portfolio-page-marko.netlify.app/",
     github: "https://github.com/Marko1310/Portfolio",
   },
