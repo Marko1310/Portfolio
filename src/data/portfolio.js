@@ -2,9 +2,15 @@ export default [
   {
     title: "Workout_Tracker",
     imgUrl: "/assets/Workout.png",
-    stack: ["React", "NodeJS", "SQL", "CSS", "JS"],
+    stack: ["React", "NodeJS", "SQL", "JS"],
     link: "https://workouttracker-be21.onrender.com/",
     github: "https://github.com/Marko1310/workout_tracker",
+  },
+  {
+    title: "News_page",
+    imgUrl: "/assets/News_page.png",
+    stack: ["React", "HTML", "SCSS", "JS"],
+    github: "https://github.com/Marko1310/NewsPage",
   },
   {
     title: "Portfolio_page",

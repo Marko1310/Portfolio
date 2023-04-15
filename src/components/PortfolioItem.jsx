@@ -27,14 +27,14 @@ const PortfolioItem = ({ title, imgUrl, stack, link, github }) => {
         >
           Code
         </a>
-        <a
+        {link && <a
           href={link}
           target="_blank"
           rel="nooopener"
           className="inline-block px-2 py-1 font-semibold underline border-stone-900 dark:border-white mt-2"
         >
           Live Demo
-        </a>
+        </a>}
       </div>
     </div>
   );
