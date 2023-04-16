@@ -9,6 +9,9 @@ export default [
     imgUrl: "/assets/javascript.png",
   },
   {
+    imgUrl: "/assets/typescript.png",
+  },
+  {
     imgUrl: "/assets/react.png",
   },
   {

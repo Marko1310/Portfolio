@@ -1,10 +1,10 @@
 export default [
   {
     year: "Today",
-    title: "React and NodeJS",
+    title: "TypeScript, React and NodeJS",
     duration: "On going",
     details:
-      "Learning React, backend technologies like NodeJS and databases, implementing all to create a full stack app.",
+      "Learning TypeScript, React, backend technologies like NodeJS and databases, implementing all to create a full stack app.",
   },
   {
     year: "2022",
