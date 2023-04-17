@@ -19,6 +19,7 @@ const Intro = () => {
           {intro.map((el) => {
             return (
               <img
+              key={el.id}
                 src={el.imgUrl}
                 alt="stack"
                 className="w-6 h-6 md:w-10 md:h-10 object-contain"

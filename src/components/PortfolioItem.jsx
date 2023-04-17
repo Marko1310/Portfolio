@@ -1,13 +1,18 @@
 import React from "react";
 
-const PortfolioItem = ({ title, imgUrl, stack, link, github }) => {
+const PortfolioItem = ({ title, imgUrl, stack, link, github, description }) => {
   return (
     <div className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden">
-      <img
-        src={imgUrl}
-        alt="portfolio"
-        className="w-full h-36 md:h-48 object-cover"
-      />
+      <div className='relative group'>
+        <img
+          src={imgUrl}
+          alt="portfolio"
+          className="w-full h-36 md:h-48 object-cover"
+        />
+        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          <p className="text-white text-center">{description}</p>
+        </div>
+      </div>
       <div className="w-full p-4">
         <h3 className="text-lg md:text-xl mb-2 mb:mb-3 font-semibold dark:text-white">
           {title}

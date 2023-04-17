@@ -1,18 +1,22 @@
 export default [
   {
+    id: 1,
     title: "Workout_Tracker",
     imgUrl: "/assets/Workout.png",
     stack: ["React", "NodeJS", "SQL", "JS"],
     link: "https://workouttracker-be21.onrender.com/",
     github: "https://github.com/Marko1310/workout_tracker",
+    description: 'The application is intended to help users track their progress in the gym. Create and manage workout splits. Add workout days to each split. Add exercises to each workout day.Track sets and reps for each exercise. View previous sets and reps for a given workout day.'
   },
   {
+    id: 2,
     title: "News_page",
     imgUrl: "/assets/News_page.png",
     stack: ["React", "HTML", "SCSS", "JS"],
     github: "https://github.com/Marko1310/NewsPage",
   },
   {
+    id: 3,
     title: "Portfolio_page",
     imgUrl: "/assets/Portfolio.png",
     stack: ["React", "HTML", "Tailwind", "JS"],
@@ -20,6 +24,7 @@ export default [
     github: "https://github.com/Marko1310/Portfolio",
   },
   {
+    id: 4,
     title: "Grocery_App",
     imgUrl: "/assets/Grocery_App.png",
     stack: ["HTML", "CSS", "JavaScript"],
@@ -27,13 +32,15 @@ export default [
     github: "https://github.com/Marko1310/Grocery_localStorage",
   },
   {
+    id: 5,
     title: "Pig_Game",
     imgUrl: "/assets/Pig_Game.png",
     stack: ["HTML", "CSS", "JavaScript"],
     link: "https://pig-game-marko-v2.netlify.app/",
     github: "https://github.com/Marko1310/Marko1310.github.io",
   },
-  {
+  { 
+    id: 6,
     title: "Mapty",
     imgUrl: "/assets/Mapty.png",
     stack: ["HTML", "CSS", "JavaScript"],
@@ -41,6 +48,7 @@ export default [
     github: "https://github.com/Marko1310/Mapty",
   },
   {
+    id: 7,
     title: "Word_Counter",
     imgUrl: "/assets/Word_Counter.png",
     stack: ["React", "HTML", "CSS", "JavaScript"],
