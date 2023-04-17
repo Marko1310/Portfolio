@@ -7,10 +7,10 @@ const PortfolioItem = ({ title, imgUrl, stack, link, github, description }) => {
         <img
           src={imgUrl}
           alt="portfolio"
-          className="w-full h-36 md:h-48 object-cover"
+          className="w-full h-64 md:h-64 object-cover"
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-          <p className="text-white text-center">{description}</p>
+        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-80 flex justify-start items-start opacity-0 group-hover:opacity-100 transition-opacity duration-500 px-4 py-4">
+          <p className="text-white text-start whitespace-pre-line">{description}</p>
         </div>
       </div>
       <div className="w-full p-4">
