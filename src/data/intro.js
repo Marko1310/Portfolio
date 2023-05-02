@@ -19,10 +19,10 @@ export default [
     id: 5,
     imgUrl: '/assets/react.png',
   },
-  {
-    id: 6,
-    imgUrl: '/assets/tailwind.png',
-  },
+  // {
+  //   id: 6,
+  //   imgUrl: '/assets/tailwind.png',
+  // },
   {
     id: 7,
     imgUrl: '/assets/nodejs.png',
@@ -30,5 +30,9 @@ export default [
   {
     id: 8,
     imgUrl: '/assets/sql.png',
+  },
+  {
+    id: 9,
+    imgUrl: '/assets/jest.png',
   },
 ];
