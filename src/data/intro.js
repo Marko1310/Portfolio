@@ -11,10 +11,10 @@ export default [
     id: 3,
     imgUrl: '/assets/javascript.png',
   },
-  // {
-  //   id:4,
-  //   imgUrl: "/assets/typescript.png",
-  // },
+  {
+    id: 4,
+    imgUrl: '/assets/typescript.png',
+  },
   {
     id: 5,
     imgUrl: '/assets/react.png',

@@ -4,8 +4,8 @@ export default [
     title: 'Workout_Tracker',
     imgUrl: '/assets/Workout.png',
     stack: ['React', 'NodeJS', 'SQL', 'JS'],
-    link: 'https://workouttracker-be21.onrender.com/',
-    github: 'https://github.com/Marko1310/workout_tracker',
+    link: 'https://workout-tracker-marko.netlify.app/',
+    github: 'https://github.com/Marko1310/workout_tracker_v3',
     description:
       'A Full-Stack application intended to help users track their progress in the gym.\n\n Features:\n- Authentication and Authorization. \n- Create and manage workout splits.\n- Add workouts to each split.\n- Add exercises, track sets and reps.\n- View previous sets and reps.',
   },
