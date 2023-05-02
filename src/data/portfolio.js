@@ -7,7 +7,7 @@ export default [
     link: 'https://workouttracker-be21.onrender.com/',
     github: 'https://github.com/Marko1310/workout_tracker',
     description:
-      'The application is intended to help users track their progress in the gym.\n\n Features:\n- Create and manage workout splits.\n- Add workout days to each split.\n- Add exercises to each workout day.\n- Track sets and reps for exercises.\n- View previous sets and reps.',
+      'A Full-Stack application intended to help users track their progress in the gym.\n\n Features:\n- Authentication and Authorization. \n- Create and manage workout splits.\n- Add workouts to each split.\n- Add exercises, track sets and reps.\n- View previous sets and reps.',
   },
   {
     id: 2,
