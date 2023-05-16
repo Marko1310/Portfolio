@@ -42,7 +42,7 @@ export default [
     id: 5,
     title: 'Grocery_App',
     imgUrl: '/assets/Grocery_App.png',
-    stack: ['HTML', 'CSS', 'React', 'JavaScript'],
+    stack: ['HTML', 'CSS', 'React', 'TypeScript'],
     link: 'https://mygroceryapp-react.netlify.app/',
     github: 'https://github.com/Marko1310/Grocery_localStorage',
     description:
