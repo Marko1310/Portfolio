@@ -13,7 +13,7 @@ export default [
     id: 2,
     title: 'Tesla_Page_Clone',
     imgUrl: '/assets/Tesla.png',
-    stack: ['React', 'HTML', 'CSS', 'JS'],
+    stack: ['React', 'HTML', 'CSS', 'TypeScript'],
     link: 'https://tesla-clone-marko.netlify.app/',
     github: 'https://github.com/Marko1310/Tesla_Clone',
     description:
