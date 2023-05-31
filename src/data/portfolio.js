@@ -23,7 +23,7 @@ export default [
     id: 3,
     title: 'News_page',
     imgUrl: '/assets/News_page.png',
-    stack: ['React', 'HTML', 'SCSS', 'JS'],
+    stack: ['React', 'HTML', 'SCSS', 'TypeScript'],
     github: 'https://github.com/Marko1310/NewsPage',
     description:
       'News app that fetches latest news from newsAPI with responsive design.\n Features: \n - Search articles\n - Change category of news \n - Save favorite articles.\nREMARK: Live demo not available cause of newsAPI pricing plan, please follow the readme file on github to start the app on localhost.',
